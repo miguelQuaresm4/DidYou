@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity(name = "t_usuario")
 @Table(name = "t_usuario")
-public class Usuario {
+public class    Usuario {
 
     /**
      * Long, int - Números inteiros
@@ -26,4 +26,9 @@ public class Usuario {
     private String email;
     private String senha;
 
+    public  Usuario(Usuario usuario){
+        this.nome = usuario.getNome();
+        this.email = usuario.getEmail();
+        this.senha = usuario.getSenha();
+    }
 }
