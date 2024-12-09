@@ -20,7 +20,7 @@ public class EpisodioService {
     }
 
     //Esse metodo lista todos os episodios no banco de dados
-    public List<Episodio> listaTodosepisodios(){
+    public List<Episodio> listaEP(){
         return this.repository.findAll();
 
     }
