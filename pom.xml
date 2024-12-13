@@ -8,11 +8,11 @@
 		<version>3.4.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.miguelquaresm4</groupId>
+	<groupId>com.lucasmoraist</groupId>
 	<artifactId>didyou</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>didyou</name>
-	<description>DiDYou é uma plataforma de listagem de filmes e series</description>
+	<description>DiDYou é uma platorma de listagem de filmes e séries</description>
 	<url/>
 	<licenses>
 		<license/>
